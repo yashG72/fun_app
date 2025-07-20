@@ -1,12 +1,85 @@
-# React + Vite
+# 💌 Fun Apology Generator — "Galti Ho Gayi Bro!" 😂
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **funniest way to say sorry** on the internet. Whether you forgot an anniversary or accidentally ate her last fry 🍟 — we got your back, in the cringiest, most rhyming-est, totally filmy way! 🎬💘
 
-Currently, two official plugins are available:
+🛠 Built With:
+- **Frontend**: React + Tailwind + Vite 🚀  
+- **Backend**: Express + MongoDB ☁️  
+- **Deployed**: Vercel (Frontend) & Render (Backend) 🌐
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Upload a photo for your background  
+✅ Write a **custom apology** (or leave it blank — we’ll generate a filmy cringe one 😭)  
+✅ Get a **sharable link** with a rhyming message  
+✅ Copy the link and send it to your crush/gf/bestie/enemy  
+✅ Designed for mobile, desktop, and emotional breakdowns 💔
+
+---
+
+## 🧪 Try It Live
+
+🎨 **Frontend**: [fun-app-steel.vercel.app](https://fun-app-steel.vercel.app/)  
+🔗 **Backend API**: [fun-app-xn32.onrender.com](https://fun-app-xn32.onrender.com)
+
+---
+
+## 💥 Screenshots
+
+| Home | Template |
+|------|----------|
+| ![Home](https://via.placeholder.com/400x250?text=Home+Screen) | ![Template](https://via.placeholder.com/400x250?text=Apology+Template) |
+
+---
+
+## 🤖 Tech Stack
+
+| Tech        | Purpose         |
+|-------------|-----------------|
+| React       | Frontend Magic  |
+| Vite        | Fast Build Tool |
+| TailwindCSS | Styling with ✨  |
+| Express.js  | Backend Routes  |
+| MongoDB     | Data Storage    |
+| Axios       | API Calls       |
+| Vercel      | Frontend Deploy |
+| Render      | Backend Deploy  |
+
+---
+
+## 🔥 Sample Rhyming Apologies
+
+> "Tujhse door rehkar dil roya hai,  
+maine toh sirf tujhko hi chaha hai 🥺"
+
+> "Tera gussa bhi ice cream se bhi thanda ho jaye,  
+ek baar ‘okay’ keh de, dil behal jaye 🍦"
+
+> "Maafi de de mujhe meri jaan,  
+nahi chalegi ab tere bina meri shaan 💔"
+
+---
+
+## 🧠 How It Works
+
+1. Upload your pic 📸  
+2. Type a message or let AI create one 🤖  
+3. Generate link 🚀  
+4. Send to them and wait for that *"aww so cute, I forgive you 🥹"* moment 🥰
+
+---
+
+## 🛠 Local Setup
+
+```bash
+# Backend
+cd backend
+npm install
+npm run dev
+
+# Frontend
+cd frontend
+npm install
+npm run dev
