@@ -18,7 +18,7 @@ const TemplatePage = () => {
 
   useEffect(() => {
   axios
-    .get(`http://localhost:5000/api/apology/${id}`)
+    .get(`${import.meta.env.VITE_API_BASE_URL}/api/apology/${id}`)
     .then((res) => {
       setData(res.data);
       setLoading(false); // ✅ Add this

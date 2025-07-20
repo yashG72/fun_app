@@ -23,7 +23,7 @@ const HomePage = () => {
     const apologyMessage = message.trim() || getRandomApology();
 
     try {
-      await axios.post("http://localhost:5000/api/apology", {
+      await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/apology/${id}`, {
         id,
         image,
         message: apologyMessage,
